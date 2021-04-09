@@ -1,0 +1,1102 @@
+
+
+   ===> N-Body Interaction Abacus <===
+        BSSE Treatment:                     cp
+        Number of 1-body computations:     4
+        Number of 2-body computations:     1
+
+   ==> N-Body: Now computing 1-body complexes <==
+
+
+       N-Body: Computing complex (1/4) with fragments (2,) in the basis of fragments (2,).
+
+
+*** tstart() called on Turkis-Mac.local
+*** at Thu Apr  8 12:36:37 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   250 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2-3 entry H          line    36 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000     0.000000000000    -0.055957436644    15.994914619570
+         H           -0.866025403784    -0.000000000000     0.444042563356     1.007825032230
+         H            0.866025403784     0.000000000000     0.444042563356     1.007825032230
+
+  Running in c2v symmetry.
+
+  Rotational constants: A =     37.66923  B =     11.15116  C =      8.60410 [cm^-1]
+  Rotational constants: A = 1129295.13488  B = 334303.40432  C = 257944.51003 [MHz]
+  Nuclear repulsion =    8.772355975749340
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 19
+    Number of basis function: 41
+    Number of Cartesian functions: 43
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   270 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+    atoms 2-3 entry H          line    70 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A1        18      18       0       0       0       0
+     A2         4       4       0       0       0       0
+     B1        12      12       0       0       0       0
+     B2         7       7       0       0       0       0
+   -------------------------------------------------------
+    Total      41      41       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.002 GiB; user supplied 0.349 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               357
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-JKFIT
+    Number of shells: 52
+    Number of basis function: 150
+    Number of Cartesian functions: 171
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 3.1776716444E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -75.40236309356578   -7.54024e+01   0.00000e+00 
+   @DF-RHF iter   1:   -75.94496792898563   -5.42605e-01   1.95523e-02 DIIS
+   @DF-RHF iter   2:   -75.99611888289716   -5.11510e-02   1.32313e-02 DIIS
+   @DF-RHF iter   3:   -76.02921250634014   -3.30936e-02   9.44571e-04 DIIS
+   @DF-RHF iter   4:   -76.02966508714887   -4.52581e-04   2.38238e-04 DIIS
+   @DF-RHF iter   5:   -76.02969775277329   -3.26656e-05   5.76948e-05 DIIS
+   @DF-RHF iter   6:   -76.02970080138158   -3.04861e-06   1.23929e-05 DIIS
+   @DF-RHF iter   7:   -76.02970095521948   -1.53838e-07   2.27731e-06 DIIS
+   @DF-RHF iter   8:   -76.02970095963380   -4.41432e-09   3.60333e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A1   -20.575733     2A1    -1.325858     1B1    -0.721210  
+       3A1    -0.548276     1B2    -0.500788  
+
+    Virtual:                                                              
+
+       4A1     0.035570     2B1     0.056335     5A1     0.176784  
+       2B2     0.197393     6A1     0.213179     3B1     0.227174  
+       4B1     0.291210     7A1     0.305143     1A2     0.373970  
+       8A1     0.430065     3B2     0.452052     5B1     0.515707  
+       9A1     0.637528     6B1     0.650693     7B1     0.837979  
+      10A1     0.861350     4B2     1.084734    11A1     1.089552  
+       2A2     1.146277    12A1     1.399360     8B1     1.461085  
+       5B2     1.486454    13A1     1.562977     9B1     1.955623  
+       6B2     2.025915     3A2     2.053899    10B1     2.394457  
+      14A1     2.395300    15A1     2.532325    11B1     2.731289  
+      16A1     2.860524     7B2     3.657082    17A1     3.664864  
+       4A2     3.700759    18A1     4.114948    12B1     4.155190  
+
+    Final Occupation by Irrep:
+             A1    A2    B1    B2 
+    DOCC [     3,    0,    1,    1 ]
+
+  @DF-RHF Final Energy:   -76.02970095963380
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              8.7723559757493401
+    One-Electron Energy =                -122.2603834381361878
+    Two-Electron Energy =                  37.4583265027530388
+    Total Energy =                        -76.0297009596338143
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.8323
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:    -0.1443
+
+  Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.6880     Total:     0.6880
+
+  Dipole Moment: [D]
+     X:     0.0000      Y:     0.0000      Z:     1.7488     Total:     1.7488
+
+
+*** tstop() called on Turkis-Mac.local at Thu Apr  8 12:36:37 2021
+Module time:
+	user time   =       0.49 seconds =       0.01 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     504.78 seconds =       8.41 minutes
+	system time =      29.28 seconds =       0.49 minutes
+	total time  =       1207 seconds =      20.12 minutes
+
+       N-Body: Complex Energy (fragments = (2,), basis = (2,):   -76.02970095963380)
+
+       N-Body: Computing complex (2/4) with fragments (2,) in the basis of fragments (1, 2).
+
+
+*** tstart() called on Turkis-Mac.local
+*** at Thu Apr  8 12:36:37 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 4     entry O          line   250 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2-3, 5-6 entry H          line    36 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+      Gh(O)           0.000000000000    -0.027085083159    -1.598942670132    15.994914619570
+      Gh(H)           0.000000000000    -0.027085083159    -0.598942670132     1.007825032230
+      Gh(H)           0.000000000000     0.940975099129    -1.849660606205     1.007825032230
+         O            0.000000000000    -0.027085083159     1.501057329868    15.994914619570
+         H           -0.612372435696    -0.639457518855     2.001057329868     1.007825032230
+         H            0.612372435696     0.585287352537     2.001057329868     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      7.04625  B =      0.18905  C =      0.18541 [cm^-1]
+  Rotational constants: A = 211241.11792  B =   5667.47535  C =   5558.43545 [MHz]
+  Nuclear repulsion =    8.772355975749338
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 38
+    Number of basis function: 82
+    Number of Cartesian functions: 86
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1, 4     entry O          line   270 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+    atoms 2-3, 5-6 entry H          line    70 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         82      82       0       0       0       0
+   -------------------------------------------------------
+    Total      82      82       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.017 GiB; user supplied 0.349 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               357
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-JKFIT
+    Number of shells: 104
+    Number of basis function: 300
+    Number of Cartesian functions: 342
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 2.0604290374E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -75.40236277300949   -7.54024e+01   0.00000e+00 
+   @DF-RHF iter   1:   -75.94511552417529   -5.42753e-01   5.50894e-03 DIIS
+   @DF-RHF iter   2:   -75.99630541766231   -5.11899e-02   3.73099e-03 DIIS
+   @DF-RHF iter   3:   -76.02941763404479   -3.31122e-02   2.65813e-04 DIIS
+   @DF-RHF iter   4:   -76.02987016288287   -4.52529e-04   6.71363e-05 DIIS
+   @DF-RHF iter   5:   -76.02990289364644   -3.27308e-05   1.62548e-05 DIIS
+   @DF-RHF iter   6:   -76.02990595074806   -3.05710e-06   3.50433e-06 DIIS
+   @DF-RHF iter   7:   -76.02990610638128   -1.55633e-07   6.46080e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -20.575777     2A     -1.325823     3A     -0.721177  
+       4A     -0.548237     5A     -0.500665  
+
+    Virtual:                                                              
+
+       6A      0.032607     7A      0.053467     8A      0.056110  
+       9A      0.082505    10A      0.162150    11A      0.172212  
+      12A      0.181745    13A      0.197852    14A      0.213899  
+      15A      0.223256    16A      0.239588    17A      0.251737  
+      18A      0.313377    19A      0.327667    20A      0.370345  
+      21A      0.403424    22A      0.439261    23A      0.452592  
+      24A      0.462743    25A      0.495970    26A      0.521907  
+      27A      0.531756    28A      0.545142    29A      0.568770  
+      30A      0.620425    31A      0.647744    32A      0.662365  
+      33A      0.710140    34A      0.868331    35A      0.878430  
+      36A      0.934148    37A      0.946102    38A      1.126562  
+      39A      1.146789    40A      1.161140    41A      1.208017  
+      42A      1.234082    43A      1.284370    44A      1.336377  
+      45A      1.376257    46A      1.400280    47A      1.429809  
+      48A      1.469990    49A      1.550225    50A      1.578331  
+      51A      1.821657    52A      1.998865    53A      2.049069  
+      54A      2.057155    55A      2.121347    56A      2.296694  
+      57A      2.369650    58A      2.412490    59A      2.452884  
+      60A      2.475414    61A      2.532999    62A      2.601718  
+      63A      2.703845    64A      2.835451    65A      2.930018  
+      66A      3.427310    67A      3.700639    68A      3.703237  
+      69A      3.827601    70A      3.909665    71A      4.081054  
+      72A      4.145160    73A      4.189052    74A      4.912047  
+      75A      4.958067    76A      4.998319    77A      5.180514  
+      78A      5.487615    79A      5.665370    80A      6.438325  
+      81A      6.866329    82A     33.569563  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+
+  @DF-RHF Final Energy:   -76.02990610638128
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              8.7723559757493383
+    One-Electron Energy =                -122.2611278721226142
+    Two-Electron Energy =                  37.4588657899920037
+    Total Energy =                        -76.0299061063812758
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:    -0.0000      Y:    -0.5118      Z:    30.2556
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0001      Y:     0.5116      Z:   -29.5698
+
+  Dipole Moment: [e a0]
+     X:     0.0001      Y:    -0.0002      Z:     0.6858     Total:     0.6858
+
+  Dipole Moment: [D]
+     X:     0.0003      Y:    -0.0006      Z:     1.7430     Total:     1.7430
+
+
+*** tstop() called on Turkis-Mac.local at Thu Apr  8 12:36:38 2021
+Module time:
+	user time   =       0.89 seconds =       0.01 minutes
+	system time =       0.05 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =     505.68 seconds =       8.43 minutes
+	system time =      29.34 seconds =       0.49 minutes
+	total time  =       1208 seconds =      20.13 minutes
+
+       N-Body: Complex Energy (fragments = (2,), basis = (1, 2):   -76.02990610638128)
+
+       N-Body: Computing complex (3/4) with fragments (1,) in the basis of fragments (1, 2).
+
+
+*** tstart() called on Turkis-Mac.local
+*** at Thu Apr  8 12:36:38 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 4     entry O          line   250 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2-3, 5-6 entry H          line    36 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000    -0.027085083159    -1.598942670132    15.994914619570
+         H            0.000000000000    -0.027085083159    -0.598942670132     1.007825032230
+         H            0.000000000000     0.940975099129    -1.849660606205     1.007825032230
+      Gh(O)           0.000000000000    -0.027085083159     1.501057329868    15.994914619570
+      Gh(H)          -0.612372435696    -0.639457518855     2.001057329868     1.007825032230
+      Gh(H)           0.612372435696     0.585287352537     2.001057329868     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      7.04625  B =      0.18905  C =      0.18541 [cm^-1]
+  Rotational constants: A = 211241.11792  B =   5667.47535  C =   5558.43545 [MHz]
+  Nuclear repulsion =    8.801420354575150
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 38
+    Number of basis function: 82
+    Number of Cartesian functions: 86
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1, 4     entry O          line   270 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+    atoms 2-3, 5-6 entry H          line    70 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         82      82       0       0       0       0
+   -------------------------------------------------------
+    Total      82      82       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.017 GiB; user supplied 0.349 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               357
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-JKFIT
+    Number of shells: 104
+    Number of basis function: 300
+    Number of Cartesian functions: 342
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 2.0604290374E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -75.41487090274609   -7.54149e+01   0.00000e+00 
+   @DF-RHF iter   1:   -75.94941639104084   -5.34545e-01   5.50571e-03 DIIS
+   @DF-RHF iter   2:   -76.00129609381618   -5.18797e-02   3.77530e-03 DIIS
+   @DF-RHF iter   3:   -76.03526885406730   -3.39728e-02   2.69336e-04 DIIS
+   @DF-RHF iter   4:   -76.03570489431988   -4.36040e-04   6.64080e-05 DIIS
+   @DF-RHF iter   5:   -76.03573515277630   -3.02585e-05   1.55831e-05 DIIS
+   @DF-RHF iter   6:   -76.03573770403648   -2.55126e-06   3.09548e-06 DIIS
+   @DF-RHF iter   7:   -76.03573780763972   -1.03603e-07   5.08234e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -20.584245     2A     -1.335639     3A     -0.696497  
+       4A     -0.577368     5A     -0.506070  
+
+    Virtual:                                                              
+
+       6A      0.024701     7A      0.049583     8A      0.058538  
+       9A      0.080492    10A      0.134921    11A      0.147149  
+      12A      0.180882    13A      0.193200    14A      0.219572  
+      15A      0.226305    16A      0.227973    17A      0.268697  
+      18A      0.325352    19A      0.360067    20A      0.363219  
+      21A      0.398382    22A      0.401977    23A      0.415350  
+      24A      0.425284    25A      0.468765    26A      0.484962  
+      27A      0.494212    28A      0.504684    29A      0.545285  
+      30A      0.581458    31A      0.618929    32A      0.648896  
+      33A      0.750552    34A      0.837789    35A      0.909574  
+      36A      0.959132    37A      1.040545    38A      1.108141  
+      39A      1.146961    40A      1.170301    41A      1.188395  
+      42A      1.203902    43A      1.277163    44A      1.296854  
+      45A      1.305082    46A      1.332764    47A      1.362788  
+      48A      1.427638    49A      1.499295    50A      1.559864  
+      51A      1.722721    52A      1.988322    53A      1.994700  
+      54A      2.054422    55A      2.086508    56A      2.326178  
+      57A      2.364034    58A      2.381337    59A      2.391328  
+      60A      2.434278    61A      2.463504    62A      2.579460  
+      63A      2.723272    64A      2.906026    65A      2.986780  
+      66A      3.402000    67A      3.675461    68A      3.705070  
+      69A      3.726554    70A      3.935274    71A      3.960304  
+      72A      4.050233    73A      4.274568    74A      4.894366  
+      75A      4.938904    76A      5.051960    77A      5.325151  
+      78A      5.341790    79A      5.585846    80A      6.334323  
+      81A      6.809805    82A     33.527197  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+
+  @DF-RHF Final Energy:   -76.03573780763972
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              8.8014203545751499
+    One-Electron Energy =                -122.2746565259917588
+    Two-Electron Energy =                  37.4374983637768821
+    Total Energy =                        -76.0357378076397197
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     1.3175      Z:   -28.7997
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0001      Y:    -0.6854      Z:    29.2888
+
+  Dipole Moment: [e a0]
+     X:     0.0001      Y:     0.6321      Z:     0.4891     Total:     0.7992
+
+  Dipole Moment: [D]
+     X:     0.0003      Y:     1.6067      Z:     1.2432     Total:     2.0315
+
+
+*** tstop() called on Turkis-Mac.local at Thu Apr  8 12:36:40 2021
+Module time:
+	user time   =       0.95 seconds =       0.02 minutes
+	system time =       0.05 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
+Total time:
+	user time   =     506.64 seconds =       8.44 minutes
+	system time =      29.39 seconds =       0.49 minutes
+	total time  =       1210 seconds =      20.17 minutes
+
+       N-Body: Complex Energy (fragments = (1,), basis = (1, 2):   -76.03573780763972)
+
+       N-Body: Computing complex (4/4) with fragments (1,) in the basis of fragments (1,).
+
+
+*** tstart() called on Turkis-Mac.local
+*** at Thu Apr  8 12:36:40 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   250 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2-3 entry H          line    36 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000     0.000000000000    -0.068500773871    15.994914619570
+         H            0.000000000000    -0.790796413773     0.543578495475     1.007825032230
+         H           -0.000000000000     0.790796413773     0.543578495475     1.007825032230
+
+  Running in c2v symmetry.
+
+  Rotational constants: A =     25.13688  B =     13.37371  C =      8.72938 [cm^-1]
+  Rotational constants: A = 753584.79086  B = 400933.80931  C = 261700.08936 [MHz]
+  Nuclear repulsion =    8.801420354575152
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 19
+    Number of basis function: 41
+    Number of Cartesian functions: 43
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   270 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+    atoms 2-3 entry H          line    70 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A1        18      18       0       0       0       0
+     A2         4       4       0       0       0       0
+     B1         7       7       0       0       0       0
+     B2        12      12       0       0       0       0
+   -------------------------------------------------------
+    Total      41      41       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.002 GiB; user supplied 0.349 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               357
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-JKFIT
+    Number of shells: 52
+    Number of basis function: 150
+    Number of Cartesian functions: 171
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 3.1774814615E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -75.41487078549591   -7.54149e+01   0.00000e+00 
+   @DF-RHF iter   1:   -75.94939416520806   -5.34523e-01   1.95452e-02 DIIS
+   @DF-RHF iter   2:   -76.00125319184862   -5.18590e-02   1.33891e-02 DIIS
+   @DF-RHF iter   3:   -76.03520056777403   -3.39474e-02   9.56773e-04 DIIS
+   @DF-RHF iter   4:   -76.03563639708028   -4.35829e-04   2.35725e-04 DIIS
+   @DF-RHF iter   5:   -76.03566656852026   -3.01714e-05   5.52423e-05 DIIS
+   @DF-RHF iter   6:   -76.03566910902218   -2.54050e-06   1.09708e-05 DIIS
+   @DF-RHF iter   7:   -76.03566921211508   -1.03093e-07   1.79784e-06 DIIS
+   @DF-RHF iter   8:   -76.03566921461196   -2.49688e-09   3.03859e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A1   -20.584229     2A1    -1.335633     1B2    -0.696515  
+       3A1    -0.577401     1B1    -0.506099  
+
+    Virtual:                                                              
+
+       4A1     0.034660     2B2     0.057720     5A1     0.174903  
+       2B1     0.198749     6A1     0.219013     3B2     0.232766  
+       4B2     0.278563     7A1     0.326041     1A2     0.382602  
+       8A1     0.397920     3B1     0.427503     5B2     0.532890  
+       9A1     0.636700     6B2     0.654101     7B2     0.794674  
+      10A1     0.917371     4B1     1.105407    11A1     1.117481  
+       2A2     1.145101    12A1     1.292054     8B2     1.454220  
+       5B1     1.470034    13A1     1.572191     9B2     1.971487  
+       3A2     1.988414     6B1     2.082858    14A1     2.346644  
+      10B2     2.398776    15A1     2.533927    11B2     2.701693  
+      16A1     2.959492     7B1     3.671270    17A1     3.683495  
+       4A2     3.694448    18A1     3.974524    12B2     4.219089  
+
+    Final Occupation by Irrep:
+             A1    A2    B1    B2 
+    DOCC [     3,    0,    1,    1 ]
+
+  @DF-RHF Final Energy:   -76.03566921461196
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              8.8014203545751517
+    One-Electron Energy =                -122.2744278055458693
+    Two-Electron Energy =                  37.4373382363587552
+    Total Energy =                        -76.0356692146119570
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     1.0188
+
+  Electronic Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:    -0.2196
+
+  Dipole Moment: [e a0]
+     X:     0.0000      Y:     0.0000      Z:     0.7993     Total:     0.7993
+
+  Dipole Moment: [D]
+     X:     0.0000      Y:     0.0000      Z:     2.0316     Total:     2.0316
+
+
+*** tstop() called on Turkis-Mac.local at Thu Apr  8 12:36:40 2021
+Module time:
+	user time   =       0.55 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     507.20 seconds =       8.45 minutes
+	system time =      29.43 seconds =       0.49 minutes
+	total time  =       1210 seconds =      20.17 minutes
+
+       N-Body: Complex Energy (fragments = (1,), basis = (1,):   -76.03566921461196)
+
+   ==> N-Body: Now computing 2-body complexes <==
+
+
+       N-Body: Computing complex (1/1) with fragments (1, 2) in the basis of fragments (1, 2).
+
+
+*** tstart() called on Turkis-Mac.local
+*** at Thu Apr  8 12:36:40 2021
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 4     entry O          line   250 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+    atoms 2-3, 5-6 entry H          line    36 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O            0.000000000000    -0.027085083159    -1.598942670132    15.994914619570
+         H            0.000000000000    -0.027085083159    -0.598942670132     1.007825032230
+         H            0.000000000000     0.940975099129    -1.849660606205     1.007825032230
+         O            0.000000000000    -0.027085083159     1.501057329868    15.994914619570
+         H           -0.612372435696    -0.639457518855     2.001057329868     1.007825032230
+         H            0.612372435696     0.585287352537     2.001057329868     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      7.04625  B =      0.18905  C =      0.18541 [cm^-1]
+  Rotational constants: A = 211241.11792  B =   5667.47535  C =   5558.43545 [MHz]
+  Nuclear repulsion =   34.662229604827665
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 20
+  Nalpha       = 10
+  Nbeta        = 10
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 38
+    Number of basis function: 82
+    Number of Cartesian functions: 86
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1, 4     entry O          line   270 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+    atoms 2-3, 5-6 entry H          line    70 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/aug-cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         82      82       0       0       0       0
+   -------------------------------------------------------
+    Total      82      82      10      10      10       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.017 GiB; user supplied 0.349 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               357
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-JKFIT
+    Number of shells: 104
+    Number of basis function: 300
+    Number of Cartesian functions: 342
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 2.0604290374E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:  -150.87278075986313   -1.50873e+02   0.00000e+00 
+   @DF-RHF iter   1:  -151.91206019814493   -1.03928e+00   7.54406e-03 DIIS
+   @DF-RHF iter   2:  -152.01208884149545   -1.00029e-01   4.97928e-03 DIIS
+   @DF-RHF iter   3:  -152.07085859939306   -5.87698e-02   3.78558e-04 DIIS
+   @DF-RHF iter   4:  -152.07175836011382   -8.99761e-04   9.08328e-05 DIIS
+   @DF-RHF iter   5:  -152.07181500533170   -5.66452e-05   2.78597e-05 DIIS
+   @DF-RHF iter   6:  -152.07182041735524   -5.41202e-06   1.26852e-05 DIIS
+   @DF-RHF iter   7:  -152.07182122680388   -8.09449e-07   2.56709e-06 DIIS
+   @DF-RHF iter   8:  -152.07182129486691   -6.80630e-08   4.56841e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -20.599013     2A    -20.553181     3A     -1.350900  
+       4A     -1.306720     5A     -0.744759     6A     -0.672253  
+       7A     -0.581425     8A     -0.543024     9A     -0.525372  
+      10A     -0.477367  
+
+    Virtual:                                                              
+
+      11A      0.025817    12A      0.049891    13A      0.057696  
+      14A      0.089556    15A      0.174708    16A      0.181426  
+      17A      0.198291    18A      0.213206    19A      0.230011  
+      20A      0.235558    21A      0.247195    22A      0.275169  
+      23A      0.301479    24A      0.310630    25A      0.347487  
+      26A      0.363985    27A      0.406578    28A      0.424581  
+      29A      0.441911    30A      0.477601    31A      0.517588  
+      32A      0.534289    33A      0.536847    34A      0.588147  
+      35A      0.629693    36A      0.649690    37A      0.667848  
+      38A      0.779391    39A      0.847306    40A      0.861081  
+      41A      0.926933    42A      0.995200    43A      1.088489  
+      44A      1.124623    45A      1.138439    46A      1.180819  
+      47A      1.189303    48A      1.223507    49A      1.340232  
+      50A      1.428818    51A      1.461231    52A      1.502311  
+      53A      1.527498    54A      1.598648    55A      1.621826  
+      56A      1.953367    57A      1.964862    58A      2.015453  
+      59A      2.026416    60A      2.032180    61A      2.046304  
+      62A      2.127760    63A      2.347266    64A      2.387810  
+      65A      2.441772    66A      2.483423    67A      2.510226  
+      68A      2.707565    69A      2.760341    70A      2.786583  
+      71A      2.963354    72A      3.020075    73A      3.663887  
+      74A      3.677044    75A      3.704705    76A      3.738411  
+      77A      3.764916    78A      3.777225    79A      4.075287  
+      80A      4.122021    81A      4.170550    82A      4.337504  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [    10 ]
+
+  @DF-RHF Final Energy:  -152.07182129486691
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             34.6622296048276652
+    One-Electron Energy =                -278.7600549282399243
+    Two-Electron Energy =                  92.0260040285453584
+    Total Energy =                       -152.0718212948668793
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:    -0.0000      Y:     0.8057      Z:     1.4559
+
+  Electronic Dipole Moment: [e a0]
+     X:    -0.0013      Y:    -0.1976      Z:    -0.0705
+
+  Dipole Moment: [e a0]
+     X:    -0.0013      Y:     0.6081      Z:     1.3854     Total:     1.5130
+
+  Dipole Moment: [D]
+     X:    -0.0034      Y:     1.5456      Z:     3.5213     Total:     3.8456
+
+
+*** tstop() called on Turkis-Mac.local at Thu Apr  8 12:36:42 2021
+Module time:
+	user time   =       1.13 seconds =       0.02 minutes
+	system time =       0.07 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
+Total time:
+	user time   =     508.35 seconds =       8.47 minutes
+	system time =      29.50 seconds =       0.49 minutes
+	total time  =       1212 seconds =      20.20 minutes
+
+       N-Body: Complex Energy (fragments = (1, 2), basis = (1, 2):  -152.07182129486691)
+
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+   n-Body     Total Energy [Eh]       I.E. [kcal/mol]      Delta [kcal/mol]
+        1     -152.065370174246        0.000000000000        0.000000000000
+        2     -152.071547555092       -3.876365003942       -3.876365003942
+
+   => Loading Basis Set <=
+
+    Name: DEF2-SVP
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 4     entry O          line   130 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/def2-svp.gbs 
+    atoms 2-3, 5-6 entry H          line    15 file /Users/Turk/anaconda3/envs/p4env/share/psi4/basis/def2-svp.gbs 
+

@@ -1,0 +1,120 @@
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z       
+    ------------   -----------------  -----------------  -----------------
+         O           -1.672345346568     0.924362713674     1.528526959377
+         N           -0.683318747608     1.207541077776     0.902923558785
+         C           -0.067542756748     0.130632202360     0.114189653232
+         C            0.923597023950     0.451238173144    -0.797938039655
+         C            1.495126728016    -0.567852686501    -1.544595598184
+         C            1.087990954620    -1.881339916706    -1.356158532886
+         C            0.100562807206    -2.184203324318    -0.429153641143
+         C           -0.495254811639    -1.172154303013     0.308123091520
+         O           -0.237285157198     2.322979549084     0.736856730089
+         H            1.234382711657     1.484047878369    -0.909059179343
+         H            2.267287162734    -0.333083344790    -2.274063940942
+         H            1.546024859847    -2.678779738006    -1.938968190579
+         H           -0.213995461854    -3.215070408044    -0.280989625599
+         H           -1.282308510389    -1.375330200027     1.025409057814
+
+        Interatomic Distances (Angstroms)
+
+        Distance 1 to 2 1.204   
+        Distance 1 to 3 2.282   
+        Distance 1 to 4 3.518   
+        Distance 1 to 5 4.659   
+        Distance 1 to 6 4.880   
+        Distance 1 to 7 4.079   
+        Distance 1 to 8 2.696   
+        Distance 1 to 9 2.155   
+        Distance 1 to 10 3.835   
+        Distance 1 to 11 5.618   
+        Distance 1 to 12 5.947   
+        Distance 1 to 13 4.747   
+        Distance 1 to 14 2.386   
+        Distance 2 to 3 1.470   
+        Distance 2 to 4 2.459   
+        Distance 2 to 5 3.727   
+        Distance 2 to 6 4.217   
+        Distance 2 to 7 3.727   
+        Distance 2 to 8 2.460   
+        Distance 2 to 9 1.213   
+        Distance 2 to 10 2.653   
+        Distance 2 to 11 4.601   
+        Distance 2 to 12 5.306   
+        Distance 2 to 13 4.602   
+        Distance 2 to 14 2.654   
+        Distance 3 to 4 1.385   
+        Distance 3 to 5 2.384   
+        Distance 3 to 6 2.747   
+        Distance 3 to 7 2.384   
+        Distance 3 to 8 1.385   
+        Distance 3 to 9 2.285   
+        Distance 3 to 10 2.139   
+        Distance 3 to 11 3.372   
+        Distance 3 to 12 3.836   
+        Distance 3 to 13 3.372   
+        Distance 3 to 14 2.139   
+        Distance 4 to 5 1.387   
+        Distance 4 to 6 2.404   
+        Distance 4 to 7 2.785   
+        Distance 4 to 8 2.423   
+        Distance 4 to 9 2.685   
+        Distance 4 to 10 1.084   
+        Distance 4 to 11 2.145   
+        Distance 4 to 12 3.389   
+        Distance 4 to 13 3.873   
+        Distance 4 to 14 3.395   
+        Distance 5 to 6 1.388   
+        Distance 5 to 7 2.409   
+        Distance 5 to 8 2.786   
+        Distance 5 to 9 4.070   
+        Distance 5 to 10 2.164   
+        Distance 5 to 11 1.088   
+        Distance 5 to 12 2.148   
+        Distance 5 to 13 3.395   
+        Distance 5 to 14 3.869   
+        Distance 6 to 7 1.388   
+        Distance 6 to 8 2.404   
+        Distance 6 to 9 4.880   
+        Distance 6 to 10 3.398   
+        Distance 6 to 11 2.152   
+        Distance 6 to 12 1.089   
+        Distance 6 to 13 2.152   
+        Distance 6 to 14 3.398   
+        Distance 7 to 8 1.387   
+        Distance 7 to 9 4.668   
+        Distance 7 to 10 3.869   
+        Distance 7 to 11 3.395   
+        Distance 7 to 12 2.148   
+        Distance 7 to 13 1.088   
+        Distance 7 to 14 2.164   
+        Distance 8 to 9 3.531   
+        Distance 8 to 10 3.395   
+        Distance 8 to 11 3.873   
+        Distance 8 to 12 3.389   
+        Distance 8 to 13 2.145   
+        Distance 8 to 14 1.084   
+        Distance 9 to 10 2.362   
+        Distance 9 to 11 4.732   
+        Distance 9 to 12 5.946   
+        Distance 9 to 13 5.631   
+        Distance 9 to 14 3.854   
+        Distance 10 to 11 2.496   
+        Distance 10 to 12 4.300   
+        Distance 10 to 13 4.957   
+        Distance 10 to 14 4.272   
+        Distance 11 to 12 2.477   
+        Distance 11 to 13 4.294   
+        Distance 11 to 14 4.957   
+        Distance 12 to 13 2.477   
+        Distance 12 to 14 4.300   
+        Distance 13 to 14 2.497   
+
+
+
+  Memory set to   1.863 GiB by Python driver.
+  Threads set to 2 by Python driver.
