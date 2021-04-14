@@ -1,6 +1,6 @@
 import psi4
 import numpy as np
-import IPython
+
 
 # Initial setup
 psi4.set_memory('2 GB')
@@ -29,7 +29,6 @@ psi4.optimize('scf/cc-pVDZ', molecule=ch4)
 psi4.set_output_file(file_prefix + '_vibfreq.dat', False)
 scf_energy, scf_wfn = psi4.frequency('scf/cc-pVDZ', molecule=ch4, return_wfn=True, dertype='gradient')
 
-IPython.embed()
 # Save "raw" frequencies into a variable
 rawfreq = scf_wfn.frequency_analysis['omega'][2]
 
